@@ -1,3 +1,6 @@
+next: 2025-01-11
+    renamed 'qid' to 'queue_id' as this is the identifier used by Postfix
+
 v2024.1: 2024-03-01
     Added defaults for config settings "debug" and "log_privacy_mode", so they can be omitted in the config file (see issue #5)
     Fixed bug: When checking exclude_envelopefrom_domains "<" and ">" were not removed from the Envelope-From (see issue #7)
